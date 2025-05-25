@@ -1,13 +1,15 @@
 // Firebaseの設定情報を入力
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyBD0wUDgQVaXKHwfdbjwguWiHk6Nt2bIzA",
+    authDomain: "emoji-chat-sns.firebaseapp.com",
+    databaseURL: "https://emoji-chat-sns-default-rtdb.firebaseio.com",
+    projectId: "emoji-chat-sns",
+    storageBucket: "emoji-chat-sns.firebasestorage.app",
+    messagingSenderId: "103706956561",
+    appId: "1:103706956561:web:fa973f68b3ff3119ecf2b0",
+    measurementId: "G-6FK9FML8CJ"
+  };
+
 
 // Firebaseを初期化
 firebase.initializeApp(firebaseConfig);
