@@ -37,5 +37,6 @@ database.ref("messages").on("value", (snapshot) => {
         message.className = "message";
         message.textContent = childSnapshot.val();
         chatBox.appendChild(message);
+console.log(input);
     });
 });
